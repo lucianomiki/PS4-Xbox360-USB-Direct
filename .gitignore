@@ -1,0 +1,25 @@
+build/
+*.elf
+*.o
+*.d
+__pycache__/
+
+
+# Xbox USB Direct public repository
+build/
+obj/
+bin/
+dist/
+releases/
+*.elf
+*.prx
+*.o
+*.oelf
+*.pkg
+*.pyc
+__pycache__/
+*.log
+*.pre_*
+*.pre_xbox_direct
+.vscode/
+.idea/

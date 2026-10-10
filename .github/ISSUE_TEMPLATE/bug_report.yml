@@ -1,0 +1,50 @@
+name: Bug report
+description: Something doesn't work as it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! First, please check the [troubleshooting guide](https://github.com/MoHadiShibli/Control4Free/blob/main/docs/troubleshooting.md): most setup problems are covered there.
+  - type: input
+    id: version
+    attributes:
+      label: Control4Free version
+      description: Shown at the bottom of the controller page and of the app, for example "Control4Free 1.0.0".
+    validations:
+      required: true
+  - type: input
+    id: console
+    attributes:
+      label: Firmware and GoldHEN version
+      placeholder: "Firmware 10.01, GoldHEN v2.4b18.10"
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Phone or computer, and browser
+      placeholder: "Android phone, Chrome"
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where it happened
+      description: The home screen, the sign-in screen, a game (name and title ID, like CUSA00001), or the app.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic report
+      description: |
+        Install the diagnostic package, `Control4Free-<version>-diag.pkg` from the [latest release](https://github.com/MoHadiShibli/Control4Free/releases/latest), over the app. Open **Control4Free (diagnostic)**, make the problem happen again, then attach a screenshot of each of its 5 pages here (**R1** changes the page). Or attach the report it saves: `control4free-diag.txt` on a USB stick that was plugged in, or `/data/control4free/diag-report.txt` over GoldHEN's FTP server. [Step by step](https://github.com/MoHadiShibli/Control4Free/blob/main/docs/troubleshooting.md#reporting-a-problem).
+        The report shows your console's local network address. It only works inside your home network, but you can blur it.
+    validations:
+      required: true
