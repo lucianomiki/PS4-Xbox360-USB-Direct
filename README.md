@@ -1,8 +1,28 @@
 # PS4 Xbox 360 USB Direct
 
+## Available USB releases
+
+### v0.7 - DualShock 3 (PS3) and Xbox 360 USB
+
+**[Download v0.7 ELF](https://github.com/lucianomiki/PS4-Xbox360-USB-Direct/releases/download/v0.7-usb/control4free-ps3-xbox360-usb-v0_7.elf)**
+
+PS4 firmware 13.02 with GoldHEN.
+This is the preserved v0.7 binary, renamed for clarity.
+The original build still includes experimental Bluetooth
+components. Wireless DS3 support is not confirmed.
+
+### v0.2.0 - Xbox 360 USB
+
+**[Download v0.2.0 ELF](https://github.com/lucianomiki/PS4-Xbox360-USB-Direct/releases/download/v0.2.0/control4free-usb-v0_2.elf)**
+
+The previous release remains available and unchanged.
+
+## Original v0.2.0 documentation
+
+
 ### 🎮 Use a wired Xbox 360 controller directly on your PS4!
 
-**[⬇ DOWNLOAD READY-TO-USE ELF — PS4 FW 13.02](https://github.com/lucianomiki/PS4-Xbox360-USB-Direct/releases/latest/download/control4free-usb-v0_2.elf)**
+**[⬇ DOWNLOAD READY-TO-USE ELF — PS4 FW 13.02](https://github.com/lucianomiki/PS4-Xbox360-USB-Direct/releases/download/v0.2.0/control4free-usb-v0_2.elf)**
 
 No PC, phone or external adapter required during gameplay.
 
